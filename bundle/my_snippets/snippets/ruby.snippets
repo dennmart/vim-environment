@@ -1,0 +1,13 @@
+snippet mydebug
+	Rails.logger.debug "DENNIS DEBUG - ${0}"
+# Elasticsearch::MOdel snippets
+snippet idxs
+	indexes :${0:field}, type: "string"
+snippet idxsa
+	indexes :${1:field}, type: "string", analyzer: "${0:analyzer}"
+snippet idxd
+	indexes :${0:field}, type: "date", format: "dateOptionalTime"
+snippet idxb
+	indexes :${0:field}, type: "boolean"
+snippet idxi
+	indexes :${0:field}, type: "integer"
