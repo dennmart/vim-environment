@@ -21,7 +21,6 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
-set title
 set scrolloff=3
 set sidescrolloff=3
 set showmatch
