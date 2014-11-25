@@ -28,7 +28,7 @@ set showcmd
 set wildmenu
 set wildmode=longest,full
 set list
-set listchars=trail:.
+set listchars=trail:.,tab:▸\ 
 
 " Pathogen plugin
 execute pathogen#infect()
