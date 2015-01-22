@@ -47,3 +47,6 @@ if has("autocmd")
 endif
 
 let g:airline_theme='light'
+
+au BufNewFile,BufRead *.md set filetype=markdown
+au BufNewFile,BufRead *.slimstache set filetype=slim
