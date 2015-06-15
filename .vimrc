@@ -33,8 +33,11 @@ set listchars=trail:.,tab:▸\
 " Pathogen plugin
 execute pathogen#infect()
 
-colorscheme gruvbox
+"colorscheme gruvbox
+colorscheme molokai
 set background=dark
+hi Normal ctermbg=none
+hi NonText ctermbg=none
 
 " CtrlP
 set runtimepath^=~/.vim/bundle/ctrlp.vim
