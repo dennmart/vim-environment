@@ -33,9 +33,7 @@ set listchars=trail:.,tab:▸\
 " Pathogen plugin
 execute pathogen#infect()
 
-"colorscheme gruvbox
-colorscheme molokai
-set background=dark
+colorscheme badwolf
 hi Normal ctermbg=none
 hi NonText ctermbg=none
 
