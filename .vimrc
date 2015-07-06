@@ -52,3 +52,12 @@ let g:airline_theme='light'
 
 au BufNewFile,BufRead *.md set filetype=markdown
 au BufNewFile,BufRead *.slimstache set filetype=slim
+
+" Handle tmux $TERM quirks in vim
+" Taken from http://stackoverflow.com/questions/8604150/with-term-screen-256color-under-tmux-home-and-end-keys-dont-work-why
+if $TERM =~ '^screen-256color'
+    map <Esc>OH <Home>
+    map! <Esc>OH <Home>
+    map <Esc>OF <End>
+    map! <Esc>OF <End>
+endif
