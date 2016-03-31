@@ -33,7 +33,7 @@ set listchars=trail:.,tab:▸\
 " Pathogen plugin
 execute pathogen#infect()
 
-colorscheme badwolf
+colorscheme apprentice
 hi Normal ctermbg=none
 hi NonText ctermbg=none
 
