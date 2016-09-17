@@ -33,9 +33,9 @@ set listchars=trail:.,tab:▸\
 " Pathogen plugin
 execute pathogen#infect()
 
-colorscheme apprentice
-hi Normal ctermbg=none
-hi NonText ctermbg=none
+colorscheme tender
+highlight Normal ctermbg=NONE
+highlight nonText ctermbg=NONE
 
 " CtrlP
 set runtimepath^=~/.vim/bundle/ctrlp.vim
@@ -48,7 +48,9 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
-let g:airline_theme='light'
+" enable tender airline theme
+let g:tender_airline=1
+let g:airline_theme='tender'
 
 au BufNewFile,BufRead *.md set filetype=markdown
 au BufNewFile,BufRead *.slimstache set filetype=slim

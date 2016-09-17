@@ -79,3 +79,6 @@
 [submodule "bundle/vim-elixir"]
 	path = bundle/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
+[submodule "bundle/tender.vim"]
+	path = bundle/tender.vim
+	url = https://github.com/jacoborus/tender.vim.git
